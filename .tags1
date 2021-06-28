@@ -4,3 +4,12 @@
 !_TAG_PROGRAM_NAME	Exuberant Ctags	//
 !_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
 !_TAG_PROGRAM_VERSION	5.8	//
+admin	D:\SYED\WebAppDev\PythonAPIdev\recipe-app-api\app\core\admin.py	/^from django.contrib import admin$/;"	namespace	line:1
+BaseUserAdmin	D:\SYED\WebAppDev\PythonAPIdev\recipe-app-api\app\core\admin.py	/^from django.contrib.auth.admin import UserAdmin as BaseUserAdmin$/;"	namespace	line:2
+_	D:\SYED\WebAppDev\PythonAPIdev\recipe-app-api\app\core\admin.py	/^from django.utils.translation import gettext as _$/;"	namespace	line:3
+models	D:\SYED\WebAppDev\PythonAPIdev\recipe-app-api\app\core\admin.py	/^from core import models$/;"	namespace	line:5
+UserAdmin	D:\SYED\WebAppDev\PythonAPIdev\recipe-app-api\app\core\admin.py	/^class UserAdmin(BaseUserAdmin):$/;"	class	line:8
+ordering	D:\SYED\WebAppDev\PythonAPIdev\recipe-app-api\app\core\admin.py	/^    ordering = ['id']$/;"	variable	line:9	class:UserAdmin
+list_display	D:\SYED\WebAppDev\PythonAPIdev\recipe-app-api\app\core\admin.py	/^    list_display = ['email', 'name']$/;"	variable	line:10	class:UserAdmin
+fieldsets	D:\SYED\WebAppDev\PythonAPIdev\recipe-app-api\app\core\admin.py	/^    fieldsets = ($/;"	variable	line:11	class:UserAdmin
+add_fieldsets	D:\SYED\WebAppDev\PythonAPIdev\recipe-app-api\app\core\admin.py	/^    add_fieldsets = ($/;"	variable	line:20	class:UserAdmin
